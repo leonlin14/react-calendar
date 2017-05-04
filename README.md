@@ -158,13 +158,10 @@ Percentage of the requests served within a certain time (ms)
  100%    419 (longest request)
 ```
 
-## Showcases
-* [Hackathon Taiwan](http://hackathon.tw/)
-
 License
 -
 Licensed under the MIT License
 
 Authors
 -
-Copyright(c) 2015 Fred Chien <<cfsghost@gmail.com>>
+Copyright(c) 2016 Leon Lin <<leonlin14@gmail.com>>
