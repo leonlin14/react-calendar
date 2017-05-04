@@ -1,0 +1,84 @@
+@cyan500: #00BCD4;
+
+.main-page {
+	section.panel {
+		margin-top: 100px;
+		min-height: 800px;
+		.ui.grid {
+			.calendar {
+				i.angle.icon {
+					position: relative;
+					&:hover {
+						cursor: pointer;
+						color: @cyan500!important;
+					}
+				}
+				i.angle.left.icon {
+					transition: all 0.2s linear;
+				    &:hover {
+				    	transform: translateX(-5px);
+				    }
+				}
+				i.angle.right.icon {
+					transition: all 0.2s linear;
+				    &:hover {
+				    	transform: translateX(5px);
+				    }
+				}
+				.ui.basic.segment.day {
+					border: solid 3px transparent!important;
+					display: inline-block;
+					height: 53px;
+					width: 53px;
+					&:hover {
+						border: solid 3px @cyan500!important;
+						border-radius: 100%;
+						cursor: pointer;
+					}
+				}
+			}
+			.messages {
+				i.plus.icon {
+					font-size: 20px;
+					&:hover {
+						cursor: pointer;
+						color: @cyan500!important;
+					}
+				}
+				i.material-icons.video {
+					font-size: 32px;
+					&:hover {
+						cursor: pointer;
+						color: @cyan500!important;
+					}
+				}
+				i.video.play.outline.icon {
+					font-size: 32px;
+					margin-left: -5px;
+					&:hover {
+						cursor: pointer;
+						color: @cyan500!important;
+					}
+				}
+				i.remove.icon {
+					float: right;
+					&:hover {
+						cursor: pointer;
+						color: @cyan500!important;
+					}
+				}
+				.add-reciver-icon {
+					color: black;
+					margin-left: 10px;
+					font-size: 18px;
+					i.add.user.icon {
+						&:hover {
+							cursor: pointer;
+							color: @cyan500!important;
+						}
+					}
+				}
+			}
+		}
+	}
+}

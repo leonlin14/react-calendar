@@ -1,0 +1,64 @@
+{
+	"service": {
+		"name": "FMS",
+		"external_url": "http://localhost:3001"
+	},
+	"server": {
+		"port": 3001
+	},
+	"features": {
+		"requiredPassword": false,
+		"uniqueUsername": false,
+		"avatar": {
+			"changeable": true
+		}
+	},
+	"mailer": {
+		"service": "gmail",
+		"auth": {
+			"user": "youruser@gmail.com",
+			"pass": "yourpassword",
+			"clientId": "1062945721841-gv9knqff750pt1jfdnlnppqp18i8df68.apps.googleusercontent.com",
+			"clientSecret": "BBcspOhl_prNwcxOQtEKVtbe",
+			"refreshToken": "1/rvU5OkrToA7AujYucB9dagEHT4KoBbiXzP31aaJWweVIgOrJDtdun6zK6XiATCKT"
+		},
+		"sender": {
+			"name": "Future Message Service",
+			"address": "service@yourdomain.com"
+		}
+	},
+	"session": {
+		"keys": [
+			"fwjiod@!EJI!ODr2flsf1390ei902132"
+		]
+	},
+	"database": {
+		"uri": "mongodb://localhost:27017/futureMessage"
+	},
+	"storage": {
+		"type": "local",
+		"path": "./storage"
+	},
+	"authorization": {
+		"github": {
+			"enabled": true,
+			"clientID": "f338ce33075757bfa59e",
+			"clientSecret": "571c81750b388c6233ffe060e491f822e617b402"
+		},
+		"facebook": {
+			"enabled": true,
+			"clientID": "511679122323080",
+			"clientSecret": "ffec2c1f7ea4b0e32ff31af0d0e275d6"
+		},
+		"google": {
+			"enabled": true,
+			"clientID": "1062945721841-5hm41ltvoahmepdi822v40iue8hufgeq.apps.googleusercontent.com",
+			"clientSecret": "y_QDeNpKoQS-P2u8SegRGiXE"
+		},
+		"linkedin": {
+			"enabled": true,
+			"clientID": "757uag6nqoq4r8",
+			"clientSecret": "0nx4svG7uesLlPai"
+		}
+	}
+}
